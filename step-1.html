@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+</style>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body style="background-color: #ff8623">
+  <div class="container">
+    <img style="width: 12rem" src="img/logo-shadow.png" />
+  </div>
+  <div class="container-xxl bd-gutter mt-3 my-md-4 bd-layout" style="max-width: 800px; background-color: white; border: 1px solid #ced4da; border-radius: 0.25rem">
+    <form style="padding: 1rem">
+      <div class="form-group">
+        <label for="formGroupExampleInput"><b>Why did you join Bonobo?</b></label>
+      </div>
+      <div class="form-group">
+        <a type="button" class="btn btn-primary btn-lg btn-block" href="step-2.html">I need help with something</a>
+        <a type="button" class="btn btn-secondary btn-lg btn-block" href="end.html">I’m here to check out the community</a>
+      </div>
+    </form>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</html>
